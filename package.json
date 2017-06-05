@@ -1,16 +1,18 @@
 {
-  "name": "api-serializer",
-  "version": "0.1.0",
-  "main": "index.js",
-  "author": "samover <github@samover.33mail.com>",
-  "license": "MIT",
-  "scripts": {
-      "test": "./node_modules/.bin/jest"
-  },
-  "dependencies": {
-    "jsonapi-serializer": "^3.5.3"
-  },
-  "devDependencies": {
-    "jest": "^20.0.4"
-  }
+    "name": "guinan-api-serializer",
+    "version": "0.1.0",
+    "description": "A wrapper for jsonapi-serializer setting some defaults",
+    "main": "index.js",
+    "author": "samover <github@samover.33mail.com>",
+    "license": "MIT",
+    "repository" : "samover/guinan-api-serializer",
+    "scripts": {
+        "test": "./node_modules/.bin/jest"
+    },
+    "dependencies": {
+        "jsonapi-serializer": "^3.5.3"
+    },
+    "devDependencies": {
+        "jest": "^20.0.4"
+    }
 }
